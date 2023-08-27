@@ -58,4 +58,8 @@ submitref和signKey好弄，直接调接口去获取就行了
 
 以为是ip的问题，然后我用了代理ip来请求，结果发现：order.build的时候正常请求，order.create的时候用代理ip访问会卡住然后超时，难道是被检测到了？
 
+=========8.27更新========
+做了个监控回流票的小程序，免费用
+![gh_cd589c707250_258](https://github.com/gxh27954/damai_requests/assets/24693917/7edab18a-ef28-4cb8-a379-7f0ae740ac4f)
+
 欢迎来讨论
