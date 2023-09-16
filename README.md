@@ -1,3 +1,33 @@
+=========9.16更新========
+我把app的加密hook写成了一个api接口，直接给我参数，我会返回加密后的字段给你，可以联系我试用
+req:
+curl --location 'http://x.x.x.x:9000/hook' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "params": {
+        "data": "{xxx}",
+        "sid": "1c749a58222fbfd0c8117a836373215a",
+        "uid": "2216311116140",
+        "x-features": "27",
+        "appKey": "23781390",
+        "api": "mtop.common.gettimestamp",
+        "utdid": "ZOg1nAq3HFYDA222lgMTdsNX",
+        "ttid": "10005884@damai_android_8.6.8",
+        "t": "1694760745",
+        "v": "2.0"
+    },
+    "uid": 0
+}'
+
+rsp:
+{"code": 0, "data": {"wua":
+"CofS_LnO9G0xnVCRLEvUH20kI80pheuJfDzfqKX3SBPAwP7RdoBP3Y0EPutrdjmp4/I63eofec+gu+hPJW+DXsU6f6JMz79i1g9YV9JEGYHg03mv9/9jozGLU2BPSfn2p67+mzu6Hjkq1GlbwtA3n+X5tXFy3tN0mO8+L6lT6HcN9ljnP8TrSJCNXuy8Md345MVAtq9t5MzNOW5Bx4G9vdAHiaCEXFMyZPdoVYDnXdkK1JbKO8OG8dqJvEvTjezaYgFll639WvFvj4KdNjmmM+nkzPG7Kq2Vp/x8bd2FWEPnnuu4=",
+"x-sgext":
+"JBJoAwBzb9BCxKnzlkXazgNZMlg2WSBbNlE6SzFaIEsyXjpcO1swUDVaIFgzWDNYM1gzWDNYM1gzWDNLM0szSzNYIFgzWDNLM0sySzJLMksySzJLMkszSzNLM0szSzNLM0szSzNLM0szSyBaIEszWDNYM1ggWDNYM1ggWCBaZwkgWCBLM0s7SzNLMEt5KUtfIFggSCNIM0gjSDM=",
+"x-sign": "azG34N002xAAJLf8qptL3twSmKT2lLf0tr3nsuSx+7EclhflAKAEOxY399weYWDTdN7JkzmTsPmEhnPw58Xz82XDZWS2lLf0tpS39L",
+"x-umt": "tioBG3VLPPocNAKKmV1yfDKn5njmcHDT", "x-mini-wua":
+"aFwQvuWTw5ga+UKefNwpH7Ju2bYXkOH18V74JS1zL+qLuMrLNoHkvh316NVMwIKLEkH1rLatU6zK02ZXjXXPJF1BvZ7iHeaFK/ZMUTXoJWvbUgXMRj9LKqudRlZnBHS+xPfmEoucf2ANOHqbxMvi2WG7NqlES2uXFLss="}}
+
 =========9.13更新========
 
 这里向大家咨询个技术问题，现在小程序监控的场次大概400场了，并发同时有400个http请求，速度很慢，大概10s一把
