@@ -4,7 +4,8 @@ api写完了，本地也能正常调用购买成功，但是部署到云服务�
 
 找了好几家云，发现都一样，只能先部署在我本地了，然后挂了个内网穿透（不稳定）
 
-![Uploading image.png…]()
+<img width="920" alt="image" src="https://github.com/gxh27954/damai_requests/assets/24693917/13dcbab3-7c4a-4edf-8fa5-820afbec61f5">
+
 
 
 
