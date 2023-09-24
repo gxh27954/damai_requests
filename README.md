@@ -1,10 +1,18 @@
+=========9.24更新========
+
+已解决，可正常使用和下单了，可以联系我(eHVlcjI3OTU0)试用，base64解码
+
+只需要2个参数，即可完成自动下单
+
+<img width="773" alt="image" src="https://github.com/gxh27954/damai_requests/assets/24693917/6c3801d2-6f1b-41fb-99cb-6fbe84d66d23">
+
+
 =========9.23更新========
 
 api写完了，本地也能正常调用购买成功，但是部署到云服务器后，就不行了，看起来是damai对云厂商的ip做了限制...
 
 找了好几家云，发现都一样，只能先部署在我本地了，然后挂了个内网穿透（不稳定）
 
-<img width="920" alt="image" src="https://github.com/gxh27954/damai_requests/assets/24693917/13dcbab3-7c4a-4edf-8fa5-820afbec61f5">
 
 
 
