@@ -1,3 +1,8 @@
+=========9.27更新========
+出新版验证码了，得重新破，接口失效
+<img width="411" alt="image" src="https://github.com/gxh27954/damai_requests/assets/24693917/7575b88b-b9ce-4b04-be4e-61aed5cbcba5">
+
+
 =========9.26更新========
 
 2个条件：
